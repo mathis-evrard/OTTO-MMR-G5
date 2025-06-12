@@ -24,7 +24,7 @@ body {
    
 }
 .section_head {
-    background-image: url('../images/PHOTODEGROUPE.jpg');  
+    background-image: url('PHOTODEGROUPE.jpg');  
     background-size: cover;
     background-repeat: no-repeat;
     background-position: middle top;
