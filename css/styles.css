@@ -24,19 +24,17 @@ body {
    
 }
 .section_head {
-    background-image:url(".../PHOTODEGROUPE.jpg");
+     background-image: url("../PHOTODEGROUPE.jpg"); /* si l’image est à côté d’index.html */
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: middle top;
-    background-position-y: 30%;
-    height: 100vh; /* Prend toute la hauteur de l'écran */
+    background-position: center 30%;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(236, 233, 233); /* Pour que le texte soit visible */
+    color: rgb(236, 233, 233);
     font-size: 1rem;
-    text-align: top; 
-    font-family: 'Abril Fatface'; /* Police d'écriture */
+    font-family: 'Abril Fatface';
 }
 
 .section_head h2 {
@@ -325,6 +323,7 @@ html {
   font-size: 1rem;
   font-style: italic;
 }
+
 
 
 
