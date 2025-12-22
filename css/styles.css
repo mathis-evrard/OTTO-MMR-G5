@@ -17,6 +17,17 @@ body2 {
     margin: 0;
     padding: 0;
     color: white; /* Facultatif : rend le texte blanc pour un meilleur contraste */
+  background-image: url("../PHOTODEGROUPE.jpg"); /* si l’image est à côté d’index.html */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(236, 233, 233);
+    font-size: 1rem;
+    font-family: 'Abril Fatface';
 }
 #presentation {
     margin-top: 60px; /* Ajoute un espace sous la barre de navigation */
@@ -328,6 +339,7 @@ html {
   font-size: 1rem;
   font-style: italic;
 }
+
 
 
 
