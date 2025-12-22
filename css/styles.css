@@ -13,6 +13,11 @@ body {
     background-color: rgb(209, 61, 61); /* Définit le fond rouge partout */
     color: white; /* Facultatif : rend le texte blanc pour un meilleur contraste */
 }
+body2 {
+    margin: 0;
+    padding: 0;
+    color: white; /* Facultatif : rend le texte blanc pour un meilleur contraste */
+}
 #presentation {
     margin-top: 60px; /* Ajoute un espace sous la barre de navigation */
     padding: 20px;
@@ -323,6 +328,7 @@ html {
   font-size: 1rem;
   font-style: italic;
 }
+
 
 
 
